@@ -1,0 +1,24 @@
+{
+  "name": "evento",
+  "version": "1.0.0",
+  "description": "Sistema de controle e gericiamento de eventos de um gremio escolar",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veio00/EventoControl.git"
+  },
+  "author": "@veio00",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veio00/EventoControl/issues"
+  },
+  "homepage": "https://github.com/veio00/EventoControl#readme",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "mongoose": "*"
+  }
+}
