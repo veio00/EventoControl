@@ -28,9 +28,11 @@ exports.excluirEvento = function (req, res) {
 };
 exports.eventoAll = function (req, res) {
     Evento.find({}, function (err, msg) {
+        //console.log (msg);
         if (err)
             res.send(err);
         res.json(msg);
+    
     });
 };
 
