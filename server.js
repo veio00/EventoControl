@@ -17,3 +17,11 @@ routes1(app);
 routes2(app);
 app.listen(port);
 console.log('Eventos RESTful API server started on: ' + port);
+
+var opn = require('opn');
+
+// opens the url in the default browser 
+opn('http://localhost:3000/');
+
+// specify the app to open in 
+//opn('http://localhost:3000/', {app: 'firefox'});
